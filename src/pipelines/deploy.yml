@@ -1,0 +1,6 @@
+$schema: https://azuremlschemas.azureedge.net/latest/onlineDeployment.schema.json
+name: blue
+endpoint_name: demo-endpoint
+model: azureml:demo-model:1
+instance_type: Standard_DS3_v2
+instance_count: 1
