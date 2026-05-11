@@ -1,9 +1,0 @@
-$schema: https://azuremlschemas.azureedge.net/latest/commandJob.schema.json
-command: python src/training/train.py
-environment:
-  conda_file: environments/environment.yml
-compute: azureml:cpu-cluster
-experiment_name: mlops-demo
-outputs:
-  model_output:
-    mode: upload
