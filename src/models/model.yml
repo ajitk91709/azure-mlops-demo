@@ -1,5 +1,0 @@
-$schema: https://azuremlschemas.azureedge.net/latest/model.schema.json
-name: demo-model
-version: 1
-path: azureml://jobs/<job-id>/outputs/model_output
-type: mlflow_model
